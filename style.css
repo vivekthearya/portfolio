@@ -325,6 +325,10 @@ height:500px;
 
 
 @media screen and (max-width:480px) {
+body{
+height:100%;
+width:480px;
+}
 
 .sidenav{
   position: relative;
