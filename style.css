@@ -1,0 +1,317 @@
+
+body
+{  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+}
+.sidenav
+{
+
+  height:100%;
+  width:150px;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+.sidecontents a{
+  color: black;
+  display: block;
+}
+.sidenav img{
+  height: 160px;
+  width: 150px;
+}
+.name{
+  height: 30px;
+
+  width: 150px;
+  padding-left: 0px;
+  padding-top: 4px;
+  font-size: 0.90rem;
+  background-color: #3f3f3f;
+  color: white;
+}
+.sidecontents{
+
+  position: relative;
+  border:solid 1px #ececec;
+  padding: 20px 20px 20px 20px;
+}
+.sidecontents span{
+  display: block;
+
+}
+.sidecontents a{
+  text-decoration: none;
+
+}
+.span2{
+  font-family: 'Roboto', sans-serif;
+   font-weight:300;
+    font-size:0.850rem;
+}
+.xyz{
+  font-size: 4rem;
+}
+.sidecontents i{
+  padding-bottom: 20px;
+  border: 1px;
+  border-color: black;
+}
+.sidecontents:hover{
+  background-color: #ffd42d;
+
+}
+.arrow{
+  position: absolute;
+  bottom: 55px;
+  left: 128px;
+
+  transform: rotate(45deg);
+  height :30px;
+  width: 30px;
+  background-color:#ffd42d ;
+}
+
+
+
+.vivek{
+  padding-top: 70px;
+  line-height: 53px;
+  display: block;
+  font-size: 3.8rem;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.web{
+  font-weight: 300;
+  font-size: 1.3rem;
+  color :grey;
+}
+.box{
+  margin-top: 75px;
+  height: 7px;
+  width: 20px;
+ margin-left: 49%;
+ color: #fff;
+  background-color: #ffd42d;
+}
+h5{
+padding-top: 10px;
+padding-bottom: 25px;
+}
+.vl{
+  border-left: 1px solid  #eaeaea;
+
+  margin: auto;
+  width: 1px;
+
+}
+.dot {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  margin:auto;
+  display: inline-block;
+
+}
+.line{
+
+  left: 50%;
+
+}
+.personal{
+  position: relative;
+
+}
+.contentl{
+  top:50px;
+position: absolute;
+  left: 40%;
+
+}
+.contentr{
+  top: 50px;
+  position: absolute;
+  left: 55%;
+}
+.contentl span{
+  text-align: right;
+  display: block;
+font-weight: 400;
+padding-top: 5px;
+  }
+.contentr span{
+  text-align: left;
+  display: block;
+  color: grey;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.education {
+  position: relative;
+}
+.educationl{
+  text-align: right;
+  font-weight: 400;
+  position: absolute;
+  left: 20%;
+}
+.edul{
+  padding-top:60px;
+}
+.educationm{
+  left:50%;
+}
+ .educationr{
+  font-weight: 400;
+  position: absolute;
+  left: 53%;
+  text-align: left;
+}
+.edur{
+
+  color: grey;
+  height: auto;
+
+  font-family: "Roboto";
+  padding-top: 60px;
+  padding-right: 200px;
+}
+.skills{
+  position: relative;
+}
+.skillsm{
+  left: 50%;
+}
+.skillsl{
+  text-align: left;
+  position: absolute;
+  left: 20%;
+  top: 25%;
+}
+.skillscontent{
+  text-align: right;
+  padding-left: 10px;
+  font-weight: 400;
+}
+.skillsl li{
+  padding-top: 12px;
+}
+
+.checked{
+  color:#fcf876;
+
+}
+.skillsr{
+  text-align: left;
+  position: absolute;
+  left: 52%;
+  bottom: 10%;
+
+}
+.lastline{
+  border-bottom: 15px solid ;
+  border-color: #ffd42d;
+  margin: 0 auto;
+  
+}
+.portimg{
+  width: 600px;
+  height: 400px;
+
+}
+.portimg:hover{
+  transform: scale(1.1);
+  opacity: 1.9;
+
+}
+.info{
+  display: inline-block;
+  margin-left: 30px;
+
+  border:1px solid #eaeaea;
+  height: 300px;
+  width: 220px;
+
+}
+.info i{
+  display: block;
+  color: #fcf876;
+margin-top: 35px;
+margin-bottom: 30px;
+}
+.info p{
+  padding-top: 20px;
+  color:grey;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.reachname{
+  display: inline-block;
+  color: grey;
+  width: 350px;
+  height: 50px;
+  border:1px solid #eaeaea;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.reachsub{
+  margin-top: 15px;
+  margin-left: 25px;
+  color: grey;
+  width: 740px;
+  height: 50px;
+  border:1px solid #eaeaea;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.copyright{
+  margin-top: 79px;
+  margin-right:150px;
+  height: 45px;
+  width:200px;
+  background-color: #2a2a2a;
+  color:#fff;
+  transform: rotate(90deg);
+  padding-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+.social i{
+  color:#2a2a2a;
+
+}
+
+
+.sidebar{
+  z-index: 1;
+  position: fixed;
+  margin-left: 92%;
+  }
+
+.link{
+  height: 45px;
+  width: 45px;
+  margin-bottom: 1px;
+  margin-left: 37px;
+  background-color: #ffd42d;
+  padding-top: 10px;
+}
+.link:hover i
+{
+  color: #ffd42d;
+
+}
+.link:hover{
+background-color:#2a2a2a;
+
+}
+iframe{
+width:720px ;
+height:500px;
+}
