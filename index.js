@@ -66,12 +66,10 @@ if(path!=="index.html"  )
 
       if($("html").width() <500)
       {
-        $(".portfoliome").css("margin-top","-250px");
-        $(".resumeme").css("z-index","2");
-         $(".contacte").css("z-index","2");
-         $(".portfoliome").css("z-index","2");
-        $(".contactme").css("margin-top","-250px");
-      $(".resumeme").css("margin-top","-250px");
+        $(".portfoliome").css("margin-top","-270px");
+         
+        $(".contactme").css("margin-top","-270px");
+      $(".resumeme").css("margin-top","-270px");
       }
   }
  
