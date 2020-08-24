@@ -61,12 +61,18 @@ if(path!=="index.html"  )
       $(".sidemob").remove();
 
   }
-if(path==="resume.html"  )
+if(path!=="index.html"  )
   {
 
       if($("html").width() <500)
-      $(".resumeme").css("margin-top","-100px");
-
+      {
+        $(".portfoliome").css("margin-top","-210px");
+        $(".resumeme").css("z-index","10");
+         $(".contacte").css("z-index","10");
+         $(".portfoliome").css("z-index","10");
+        $(".contactme").css("margin-top","-210px");
+      $(".resumeme").css("margin-top","-210px");
+      }
   }
  
 
