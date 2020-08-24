@@ -55,4 +55,6 @@ $('.skills').waypoint(function() {
 
   }
  if($("html").width() <500)
+ {
       $(".sidemob").css("visibility","hidden");
+ }
