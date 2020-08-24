@@ -61,5 +61,12 @@ if(path!=="index.html"  )
       $(".sidemob").remove();
 
   }
+if(path==="resume.html"  )
+  {
+
+      if($("html").width() <500)
+      $(".resumeme").css("margin-top","-100px);
+
+  }
  
 
