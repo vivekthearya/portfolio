@@ -66,12 +66,12 @@ if(path!=="index.html"  )
 
       if($("html").width() <500)
       {
-        $(".portfoliome").css("margin-top","-210px");
-        $(".resumeme").css("z-index","10");
-         $(".contacte").css("z-index","10");
-         $(".portfoliome").css("z-index","10");
-        $(".contactme").css("margin-top","-210px");
-      $(".resumeme").css("margin-top","-210px");
+        $(".portfoliome").css("margin-top","-250px");
+        $(".resumeme").css("z-index","2");
+         $(".contacte").css("z-index","2");
+         $(".portfoliome").css("z-index","2");
+        $(".contactme").css("margin-top","-250px");
+      $(".resumeme").css("margin-top","-250px");
       }
   }
  
