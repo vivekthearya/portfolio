@@ -65,7 +65,7 @@ if(path==="resume.html"  )
   {
 
       if($("html").width() <500)
-      $(".resumeme").css("margin-top","-100px);
+      $(".resumeme").css("margin-top","-100px");
 
   }
  
